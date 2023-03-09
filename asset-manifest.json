@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BC-CH-ReactPortfolio/static/css/main.5bd6fa6e.css",
+    "main.js": "/BC-CH-ReactPortfolio/static/js/main.8425399f.js",
+    "static/js/787.81135314.chunk.js": "/BC-CH-ReactPortfolio/static/js/787.81135314.chunk.js",
+    "index.html": "/BC-CH-ReactPortfolio/index.html",
+    "main.5bd6fa6e.css.map": "/BC-CH-ReactPortfolio/static/css/main.5bd6fa6e.css.map",
+    "main.8425399f.js.map": "/BC-CH-ReactPortfolio/static/js/main.8425399f.js.map",
+    "787.81135314.chunk.js.map": "/BC-CH-ReactPortfolio/static/js/787.81135314.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bd6fa6e.css",
+    "static/js/main.8425399f.js"
+  ]
+}
