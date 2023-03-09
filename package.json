@@ -3,6 +3,7 @@
   "name": "my-portolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Ajaws2022.github.io/BC-CH-ReactPortfolio",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
