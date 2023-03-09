@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
     <main className="text-gray-400 bg-gray-900 body-font w-full">
       <Header />
-        <Routes className="h-3/4">
+        <Routes>
           <Route exact path='/' element={<About/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/portfolio' element={<Portfolio/>}/>
