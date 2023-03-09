@@ -4,8 +4,8 @@ import {projects} from '../data'
 
 export default function Portfolio(){
     return(
-        <section>
-            <div className="flex flex-wrap -m-4 mt-4 p-2">
+        <section >
+            <div className="flex flex-wrap -m-4 mt-4 p-2  bg-gray-900">
           {projects.map((project) => (
             <a
               href={project.link}

@@ -11,7 +11,7 @@ export default function Navbar(){
         setPage(event.target.name);
     }
     return(
-        <div className="mr-4">
+        <div className="mr-4 mb-2">
             <nav>
                 <ul>
                     <li><Link to={{pathname: "/about"}} onClick={handleClick}>About</Link></li>

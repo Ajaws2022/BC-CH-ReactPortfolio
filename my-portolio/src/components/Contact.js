@@ -2,10 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function Contact (){
-    const validateEmail = (email) => {
-        const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-        return regex.test(email)
-    };
+    
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -21,7 +18,7 @@ export default function Contact (){
   };
 
   return (
-    <div className='w-96 ml-12 mt-10'>
+    <div className='w-96 ml-12 mt-10 h-screen'>
       <form ref={form} onSubmit={sendEmail} className="flex items-start flex-col w-full text-base" >
         <label>Name</label>
         <input type="text" name="user_name" className='w-full h-9 p-2 rounded-md border-double border-4 border-gray-500' required title='required'/>

@@ -12,9 +12,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <BrowserRouter>
-    <main className="text-gray-400 bg-gray-900 body-font h-screen w-full">
+    <main className="text-gray-400 bg-gray-900 body-font w-full">
       <Header />
-        <Routes>
+        <Routes className="h-3/4">
           <Route exact path='/' element={<About/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/portfolio' element={<Portfolio/>}/>
@@ -22,10 +22,11 @@ function App() {
           <Route path='/resume' element={<Resume/>}/>
         </Routes>
         
-        <Footer />
+      
 
       
     </main>
+    <Footer />
     </BrowserRouter>
     
     
